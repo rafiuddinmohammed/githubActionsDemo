@@ -22,3 +22,4 @@ jobs:
         run: echo ${{secrets.DOCKERHUBUSERNAME}}
       - name: docker build 
         run: cd testenv && docker build . -t fast_api:satyam
+      
