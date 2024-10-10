@@ -13,7 +13,7 @@ jobs:
       var1: 'this variable is for demo'
     steps:
       - name: gitclone 
-        run: git clone https://github.com/Shubhambawa98/testenv.git
+        run: git clone https://github.com/rafiuddinmohammed/githubActionsDemo.git
       - name: docker installation 
         run: curl -fsSL https://get.docker.com | sh 
       - name: docker login 
